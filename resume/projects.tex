@@ -1,0 +1,62 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {Project Leader} % Job title
+    {Casecloud} % Organization
+    {Horizontal Project} % Location
+    {May. 2019 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Casecloud is a cloud-native, bankruptcy management system serving hundreds of attorneys and thousands of creditors.}
+        \item {\textbf{Technology Selection, Prototype Design and Project Management:}
+        Adopting microservices architecture.
+        Adopting GitHub and Jira as tools of code management and project management.}
+        \item {\textbf{Effectiveness Management:}
+        In terms of operation and maintenance, we agreed on the project version number, built and managed a set of test clusters.
+        In terms of front-end, we unified the use of functional programming style development, agreed on code specifications,
+        use the GitHub Flow model for code development, and were responsible for code review to ensure the quality of the project code.}
+        \item {\textbf{Operation and Maintenance:}
+        Use Kubernetes cluster for container orchestration, dynamically scale up and down according to the service.
+        Use Istio to take over the vertical traffic and horizontal traffic, manage the traffic rules between different microservices and different versions in an efficient and standardized way, and configure service fusion and canary release to ensure the service quality of the project.
+        Build and Maintain CI/CD pipeline within the team to shorten the feedback cycle.
+        Build monitoring and logging services to provide better observability of clusters and applications.}
+        \item {\textbf{Front-end Design and Implementation:}
+        Design and implementation of front-end based on React, Redux and TypeScript.
+        Design an agent center to control front-end network requests, use middleware model and interceptor to manage token,
+        to ensure a clear front-end architecture and reduce the development difficulty of developers as the complexity of the project increases.}
+        \item {\textbf{IAM Service Design and Implementation:}
+        An IAM service, along with Istio's traffic management, to provide a centralized RBAC management,
+        to decouple with other services, IAM service ensures the security and reliability of the project business.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Back-end Developer} % Job title
+    {People Flow Monitor Sysrem} % Organization
+    {Horizontal Project} % Location
+    {Nov. 2020 - Feb. 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {People Flow Monitoring System is a service deployed on edge devices to monitor people flow and action recognition, my job is to add features and performance optimization to the original service}
+        \item {\textbf{Implementation and Optimization of the Back-end System:}
+        Responsible for the design and implementation of the interface between system monitoring and business, including the monitoring of the equipment itself and business data.
+        Realize the transmission optimization of image data transmission, reducing the additional encapsulation of data.}
+        \item {\textbf{Optimizing the Service:}
+        Due to the upper performance limit of the algorithm of the service itself, it cannot cope with the image data of multiple video streams,
+        using additional data structures and metadata to ensure that the algorithm can handle multiple data streams, ensuring that the images are processed in an orderly manner without starvation,
+        and optimizing the processing logic for determining the person's fall and wandering.}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+\end{cventries}
